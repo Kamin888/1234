@@ -38,11 +38,11 @@ let re = document.getElementById("result");
 function CheckPassword(){
     let em = e.value;
     let Password = p.value;
-
+    console.log(e.value)
     if(em === "bright" || Password === "1234"){
         
         // re.innerHTML = "Login success";
-        let url = p2.html
+        let url = "https://www.appsheet.com/start/9b90d7cd-e659-45ad-8230-6ccdda8d33e8"
         let newwindow = window.open(url);
     }
     else{
