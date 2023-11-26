@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- HAEDER -->
+    <header class="head">
+        <h2 class="logo">DIVES</h2>
+
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <button class="btnlogin-popup">login</button>
+        </nav>
+
+    </header>
+    <!-- HAEDER -->
+    
+    <!-- FORM LOGIN -->
+    <div class="wrapper">
+        <span class="close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
+        <div class="formboxlog">
+            <h2>Login</h2>
+            <form action="#">
+                <form action="#">
+                    <div class="inputbox">
+                        <span class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </span> 
+                        <input type="text" required id="mal">
+                        <label>Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <input type="text" required id="pass">
+                        <label>Password</label>
+                    </div>
+                </form>
+                <button type="submit" class="btn" onclick="CheckPassword()">Login</button>
+                <div class="loginregister">
+                    <p>Don't hava an account?
+                        <a href="#" class="registerlink">Register</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <!-- FORM LOGIN -->
+
+        <!-- FORM REGISTER -->
+        <div class="formboxregis">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="inputbox">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="inputbox">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="inputbox">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="loginregister">
+                    <p>Already hava an account?
+                        <a href="#" class="loginlink">Login</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- FORM REGISTER -->
+
+    <!-- FORM CHATBOT -->
+    <div class="wrapper2">
+        <span class="close2">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+        <div class="formcbot">
+            <form action="#">
+            </form>
+        </div>   
+    </div>     
+    <!-- FORM CHATBOT -->
+
+    <a href="#" class="Cbot-popup">
+        <img src="64.png" alt="">
+    </a>
+
+    <!-- SCRIPT -->
+    <script src="scripsLogis&Register.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- SCRIPT -->
+    <label for="" id="result"></label>
+
+</body>
+
+</html>
