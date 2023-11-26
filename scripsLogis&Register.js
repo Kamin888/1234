@@ -39,7 +39,7 @@ function CheckPassword(){
     let em = e.value;
     let Password = p.value;
 
-    if(em === "brightpuritus" || Password === "260248"){
+    if(em === "bright" || Password === "1234"){
         
         // re.innerHTML = "Login success";
         let url = p2.html
